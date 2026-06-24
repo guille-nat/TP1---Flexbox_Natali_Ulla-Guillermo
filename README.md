@@ -19,4 +19,4 @@ Portada de diario digital desarrollada con HTML semántico, CSS Flexbox y enfoqu
 
 ## Ver online
 
-> Enlace GitHub Pages: *(disponible una vez publicado)*
+> Enlace GitHub Pages: *[(web_page)](https://guille-nat.github.io/TP1---Flexbox_Natali_Ulla-Guillermo/)*

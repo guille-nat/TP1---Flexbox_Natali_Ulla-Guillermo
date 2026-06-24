@@ -45,23 +45,29 @@ nav {
     padding: 10px 15px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-/* ocultar el checkbox real */
+/* sacarlo del flujo sin romper el :checked */
 #menu-toggle {
-    display: none;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
 }
 
 .hamburger {
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
+    padding: 4px 8px;
+    user-select: none;
 }
 
 /* cuando el checkbox está marcado, mostrar el menú */
 #menu-toggle:checked ~ .menu-links {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .menu-links {
@@ -422,6 +428,7 @@ footer {
 /* ---- DESKTOP: 1024px ---- */
 
 @media (min-width: 1024px) {
+    #menu-toggle,
     .hamburger {
         display: none;
     }
