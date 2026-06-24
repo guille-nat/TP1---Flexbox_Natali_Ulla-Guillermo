@@ -45,6 +45,7 @@ nav {
     padding: 10px 15px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* ocultar el checkbox real */
@@ -62,6 +63,7 @@ nav {
 #menu-toggle:checked ~ .menu-links {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .menu-links {
